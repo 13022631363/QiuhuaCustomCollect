@@ -1,0 +1,19 @@
+name: QiuhuaCustomCollect
+main: org.qiuhua.qiuhuacustomcollect.Main
+version: 2.0.0
+api-version: 1.13
+depend:
+  - ItemsAdder
+softdepend:
+commands:
+  QiuhuaCustomCollect:
+    description: "主指令"
+    usage: /<command>
+
+libraries:
+  - com.zaxxer:HikariCP:5.0.1
+  - org.apache.httpcomponents.client5:httpclient5:5.1.3
+  - org.apache.httpcomponents.client5:httpclient5-fluent:5.1.3
+  - com.google.code.gson:gson:2.10.1
+  - org.apache.httpcomponents.core5:httpcore5:5.2.4
+  - org.apache.httpcomponents.core5:httpcore5-h2:5.2.4

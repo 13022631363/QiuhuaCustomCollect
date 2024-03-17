@@ -1,0 +1,11 @@
+#秘钥  秘钥绑定机器
+Key: ""
+#会自动生成的方块列表   命名空间: 刷新间隔 单位分钟
+CustomList:
+  cavemineral:enhancedore1: 10
+  cavemineral:enhancedore2: 10
+  cavemineral:enhancedore3: 10
+
+#定时存储和刷新方块检查的间隔  单位分钟
+BlockRefresh: 5
+SqliteStorage: 1
